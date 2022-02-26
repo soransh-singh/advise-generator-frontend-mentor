@@ -130,3 +130,18 @@ button{
 .slip__btn:active{
   transform: translate(-50%, 50%) scale(1.05) rotate(360deg);
 }
+
+.attribution{
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.attribution a{
+  color: hsl(var(--clr-sec));
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.attribution a:hover{
+  text-decoration: underline;
+}
