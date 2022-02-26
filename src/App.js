@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import Attribution from './Attribution'
+import Advice from './Advice'
+
 
 function App(){
   return(
     <>
-      <h1>App Component</h1>
+    <Advice/>
     </>
   )
 }
